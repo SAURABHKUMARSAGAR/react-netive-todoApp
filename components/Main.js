@@ -42,6 +42,7 @@ export default function Main() {
               Add
             </Text>
           </TouchableOpacity>
+          <Button/>
         </View>
         <TodosList todos={todos} setTodos={setTodos} />
       </View>
